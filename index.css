@@ -1,0 +1,83 @@
+.container-md {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.container{
+    text-align: center;
+}
+h2{
+    margin-top: 40px;
+}
+.label{
+    text-align: right;
+}
+.input{
+    text-align: left;
+}
+.seats{
+    width: 70px;
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+}
+.table{
+    border: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    text-align: center;
+    width: 30vw;
+}
+.name{
+    width: 35vw;
+}
+.label{
+    padding-right: 8px;
+}
+td{
+    text-align: right;
+}
+.span{
+    column-span: all;
+    height: 10px;
+}
+.dropdown{
+    text-align: left;
+}
+.seats{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+}
+.button{
+    text-align: left;
+}
+.submit{
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .content{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+    }
+    
+}
