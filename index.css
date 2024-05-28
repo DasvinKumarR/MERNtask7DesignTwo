@@ -1,3 +1,4 @@
+/* Base container setup */
 .container-md {
     margin: 50px auto;
     padding: 20px;
@@ -7,30 +8,31 @@
 .container{
     text-align: center;
 }
+/* Header margin setup */
 h2{
     margin-top: 40px;
 }
+/* setting up label align to right */
 .label{
     text-align: right;
+    padding-right: 8px;
 }
+/* setting up textbox align to left */
 .input{
     text-align: left;
 }
+/* setting up text align and width to dropdown */
 .seats{
     width: 70px;
     text-align: center;
 }
-.row{
-    text-align: center;
-}
+/* setting up image height, width and border */
 img{
     height: 180px;
     width: 180px;
     border: 1px solid black;
 }
-.table{
-    border: white;
-}
+/* setting up image container */
 .content{
     display: flex;
     justify-content: center;
@@ -39,11 +41,13 @@ img{
     text-align: center;
     width: 30vw;
 }
+/* setting up textbox width */
 .name{
     width: 35vw;
 }
-.label{
-    padding-right: 8px;
+
+.table{
+    border: white;
 }
 td{
     text-align: right;
@@ -52,6 +56,7 @@ td{
     column-span: all;
     height: 10px;
 }
+/* Dropdown settings */
 .dropdown{
     text-align: left;
 }
@@ -62,6 +67,7 @@ td{
     border: 2px solid #EEEEEE;
     border-radius: 5px;
 }
+/* button CSS settings */
 .button{
     text-align: left;
 }
@@ -69,6 +75,7 @@ td{
     margin-right: 50px;
 }
 
+/* Setting up site responsive based on screen width */
 @media only screen and (max-width: 500px) {
     .content{
         flex-direction: column;
